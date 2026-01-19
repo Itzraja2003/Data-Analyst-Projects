@@ -1,10 +1,10 @@
 Customer Churn Prediction & Retention Engine
-Project Overview
+1.Project Overview
 
 Customer churn directly affects business revenue and growth.
 This project builds an end-to-end churn prediction system using machine learning to identify customers likely to churn and recommends actionable retention strategies.
 
-Business Objective
+2.Business Objective
 
 Predict customer churn probability
 Identify key factors contributing to churn
@@ -12,7 +12,7 @@ Segment customers based on churn risk
 Recommend retention actions
 Estimate potential business impact
 
-Approach
+3.Approach
 
 Data Loading
      ↓
@@ -28,13 +28,13 @@ Retention Recommendation Engine
      ↓
 Business Impact Estimation
 
-Dataset
+4.Dataset
 
 Type: Customer subscription data
 Target Variable: Churn (Yes / No)
 Features: tenure, contract type, monthly charges, services, payment method
 
-Tech Stack
+5.Tech Stack
 
 Python
 Pandas, NumPy
@@ -44,24 +44,24 @@ SMOTE
 SHAP
 Google Colab
 
-Models Used
+6.Models Used
 
-Model	Purpose
+Model Purpose
 Logistic Regression	Baseline model
 Random Forest	Final churn prediction model
 
-Model Performance
+7.Model Performance
 
 ROC-AUC used for evaluation
 Recall prioritized to identify maximum churn-prone customers
 
-Churn Risk Segmentation
+8.Churn Risk Segmentation
 
 High Risk: >70% probability
 Medium Risk: 40–70%
 Low Risk: <40%
 
-Retention Recommendation Engine
+9.Retention Recommendation Engine
 
 Based on churn risk and customer value:
 High risk & high value → Personalized discount
@@ -69,10 +69,8 @@ High risk → Engagement campaigns
 Medium risk → Loyalty programs
 Low risk → No action required
 
-Business Impact
+10.Business Impact
 
 Simulated retention of 20% high-risk customers
-
 Demonstrated potential revenue savings
-
 Provided actionable insights for decision-makers
